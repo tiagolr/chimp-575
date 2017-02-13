@@ -9,3 +9,8 @@ Feature: Search the Web
     Given I have visited Google
     When I search for "Xolv.io"
     Then I see "Xolv.io"
+    Then I see "Xolv.io"
+    Then I see "Xolv.io"
+    Then I see "Xolv.io"
+    Then I see "Xolv.io"
+    Then I see "Xolv.io"

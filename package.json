@@ -1,0 +1,23 @@
+{
+  "name": "chimp-example",
+  "version": "1.0.0",
+  "description": "This is a simple project that aims to demonstrate the ChimpJS e2e testing tool.",
+  "main": "index.js",
+  "dependencies": {
+    "chimp": "0.47.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/chimp --jsonOutput=e2e-results.json --screenshotsOnError=true --saveScreenshotsToReport=true --saveScreenshotsToDisk=false --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuliofaria/chimp-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuliofaria/chimp-example/issues"
+  },
+  "homepage": "https://github.com/tuliofaria/chimp-example#readme"
+}
